@@ -694,7 +694,7 @@ async function getipandisp() {
     let fields1 = data.country;
     let fields2 = data.asOrganization;
     //ISP = (fields1 + '-' + fields2).replace(/ /g, '_');
-    ISP = await (await fetch("https://ipconfig.netlib.re")).text();
+    ISP = await (await fetch("https://ipconfig.de5.net")).text();
     // console.log(ISP);
 }
 
